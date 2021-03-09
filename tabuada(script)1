@@ -1,0 +1,19 @@
+/*Daniel Guedes Facina Netto*/
+/*0050015172*/
+import java.util.Scanner;
+
+ class Main {
+  public static void main(String[] args) {
+
+    Scanner ler = new Scanner(System.in);
+
+    int num=0,i=0;
+
+    System.out.printf("Entre com o numero: ");
+    num = ler.nextInt();
+
+    for(i=0; i<=10; i++){
+      System.out.println(num +"x"+ i +"="+ (num*i));
+    }
+  }
+}
